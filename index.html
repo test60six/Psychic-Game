@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/CSS/style.css">
-   <script type="text/javascript" src="javascript/game.js"></script>
-
+  
 	
 		<title>PSYCHIC GAME</title>
 	
 </head>
 <body>
+<div class="container">
 			<div class="jumbotron">
-				<h1>THE PSYCHIC GAME</h1>
+				<h1></h1>
 			</div>
 		
 				<div class="text">
 					<h2>Guess what letter I'm thinkning of...</h2>
+					<h5>( Press a letter on your keyboard to guess what the computer is thinking. Letters only. No numbers or symbols.)</h5>
+					
 
-						<h3>Wins:</h3>
+						<h3>Wins:</h3> 
+						<div id="wins">0</div>
 							<h3>Losses:</h3>
+							<div id="losses">0</div>
 								<h3>Guesses Left:</h3>
+								<div id="left">10</div>
 									<h3>Your guesses so far:</h3>
+									<div id="so-far"></div>
 
 				</div>
+</div>
 
 
 
@@ -44,7 +51,7 @@
 
 
 
-
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
